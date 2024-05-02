@@ -6,17 +6,17 @@
 /*   By: akernot <a1885158@adelaide.edu.au>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/26 18:03:12 by akernot           #+#    #+#             */
-/*   Updated: 2024/05/02 16:19:27 by akernot          ###   ########.fr       */
+/*   Updated: 2024/05/02 16:30:48 by akernot          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-static int ft_isdigit(int a)
+static int	ft_isdigit(int a)
 {
 	if (a <= '9' && a >= '0')
-		return 1;
-	return 0;
+		return (1);
+	return (0);
 }
 
 static int	skip_whitespace(const char *nptr)
